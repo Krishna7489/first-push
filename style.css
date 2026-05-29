@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+#nav-bar a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px 15px 15px 15px;
+    display: inline-block;
+}
+
+#nav-bar a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+#image{
+    background-image: url(images/home.png);
+    height: 780px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+}
+#text{
+    position: absolute;
+    top: 89%;
+    left: 40%;
+    color: white;   
+}
+.upper
+{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    padding-bottom: 15px;
+}
+.lower{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+
+#band-page{
+    padding: 75px 0px 0px 0px;
+    max-width: 800PX;
+    margin-left: 350px;
+    text-align: justify;
+    margin-bottom: 140px;
+}
+
+#band-top h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 8px;
+    letter-spacing: 5px;
+
+}
+#band-top p{
+    font-family: Verdana,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 100;
+    font-style: italic;
+    color: grey;
+    margin-bottom: 20px;
+}
+#band-lower{
+    font-family: lato,Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 0;
+    line-height: 1.4;
+    font-size: 13px;
+    margin-bottom: 60px;
+}
+#band-container{
+    display: flex;
+    text-align: center;
+}
+#band1 img, #band2 img, #band3 img{
+    width: 155px;
+    padding-left: 70px;
+    border-radius: 4px;
+    
+}
+#band1 p, #band2 p, #band3 p{
+    text-align: center;
+    padding-left: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+
+#background{
+    background-color: black;
+    width: 100%;
+    height: 790px;
+    position: relative;
+    /* max-width: 800px; */
+}
+#tour-text p{
+    color: grey;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    padding-top: 15px;
+    font-size: 13px;
+}
+#tour-text h2{
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 6px;
+    padding-top: 70px;
+}
+
+#month
+{
+    background-color: white;
+    max-width: 800px;
+    margin-left: 350px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+#month p{
+    padding: 9px;
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    border-bottom: 1px solid grey;
+    
+}
+#span1{
+    color: white;
+    padding: 4px;
+    background-color: red;
+    font-size: 13px;
+    margin-left: 30px;
+    
+}
+#span2{
+    color: white;
+    padding: 4px;
+    background-color: red;
+    font-size: 13px;
+    margin-left: 30px;
+}
+#span3{
+    padding: 4px;
+    color: white;
+    border-radius: 50%;
+    background-color: black;
+    float: right;
+}
+#list{
+    margin-left: 350px;
+    padding-top: 50px;
+}
+#image1{
+    float: left;
+    padding-right: 26px;
+}
+#image2{
+    float: left;
+    padding-right: 26px;
+}
+#image3{
+    float: left;
+}
+#image1box{
+    background-color: white;
+    width: 256px;
+    height: 190px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+#image1box p{
+    font-size: 13px;
+    padding: 10px;
+}
+#image1box button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+}
+#image1box button:hover{
+    background-color: grey;
+    color: black;
+    border: 0px;
+}
+#image1h:hover,#image2h:hover,#image3h:hover{
+    opacity: 0.5;
+}
+
+#contact{
+    height: 400px;
+    max-width: 800px;
+    margin-left: 350px;
+    
+}
+#contact-main{
+    text-align: center;
+}
+#contact-main h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    padding-top: 70px;
+    font-size: 28px;
+    letter-spacing: 3px;
+    padding-bottom: 22px;
+}
+#contact-main i{
+    color: grey;
+    margin-top: 40px;
+}
+#place{
+    padding-top: 40px;
+    /* width: 200px; */
+    float: left;
+}
+
+#place p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+        padding-top: 5px;
+}
+#form-contact input{
+    float: right;
+}
